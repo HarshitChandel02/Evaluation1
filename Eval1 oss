@@ -1,0 +1,43 @@
+students = {
+    1:{"name": "harshit","class":"12","height":1.85,"weight":75,"preferred sport":"cricket"}
+    2:{"name": "rahul","class":"11","height":1.90,"weight":80,"preferred sport":"chess"}
+    3:{"name": "arjun","class":"11","height":1.78,"weight":78,"preferred sport":"football"}
+    4:{"name": "raghav","class":"12","height":1.72,"weight":72,"preferred sport":"javelin throw"}
+    
+    
+}
+
+
+
+
+def sports={name,class , height, weight, preferred sports}:
+    bmi=weight/(height*height)
+    return bmi
+
+
+
+
+def body_type(bmi)
+if bmi < 18.5:
+return "Red:underweight"
+elif bmi>18.5 && bmi<25
+return "Blue:normalweight"
+else:
+print("overweight")
+return "Black:overweight"
+
+
+def sports_sel(students):
+    for students_id , students_info in students_items():
+        print("students name",students_info["name"])
+         print("students class",students_info["class"])
+        print("students weight",students_info["weight"])
+        print("students preferred sports",students_info["preferred sports"])
+        bmi=calculatebmi(student_info["weight"],student_info["height"])
+        print (bmi)
+        diet=diet(body_type(bmi))
+        print(diet)
+        
+        studentsports(students)
+        
+        
